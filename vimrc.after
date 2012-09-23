@@ -1,0 +1,23 @@
+" Colorscheme
+colorscheme vividchalk
+
+
+" Mappings
+"
+" Edit/Reload .vimrc.after
+nnoremap <leader>ev :split ~/.vimrc.after<cr>
+nnoremap <leader>rv :source ~/.vimrc.after<cr>
+" Escape
+inoremap jk <esc>
+" CtrlP
+nunmap <c-p>
+nunmap <c-t>
+cunmap <c-p>
+nunmap <leader>t
+nunmap <leader>T
+cnoremap <c-p> <Up>
+nnoremap <leader>t :CtrlP<cr>
+
+
+" Abbreviations
+iabbr adn and

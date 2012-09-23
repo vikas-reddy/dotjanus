@@ -1,0 +1,6 @@
+" ~/.vimrc.before runs before any plugin has loaded
+
+" Disable plugins
+for plugin in ["command-t", "kwbd", "rename2", "tagbar", "tasks", "tlib", "vimwiki", "vroom", "tagbar", "syntastic"]
+  call janus#disable_plugin(plugin)
+endfor
